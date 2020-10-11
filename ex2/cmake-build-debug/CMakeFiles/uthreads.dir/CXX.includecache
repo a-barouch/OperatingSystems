@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cs/usr/arielleb/CLionProjects/Operating_Systems/os_ex2/Thread.h
+string.h
+-
+string
+-
+setjmp.h
+-
+iostream
+-
+stdio.h
+-
+signal.h
+-
+unistd.h
+-
+sys/time.h
+-
+
+/cs/usr/arielleb/CLionProjects/Operating_Systems/os_ex2/uthreads.cpp
+uthreads.h
+/cs/usr/arielleb/CLionProjects/Operating_Systems/os_ex2/uthreads.h
+exception
+-
+new
+-
+deque
+-
+signal.h
+-
+sys/time.h
+-
+Thread.h
+/cs/usr/arielleb/CLionProjects/Operating_Systems/os_ex2/Thread.h
+
+/cs/usr/arielleb/CLionProjects/Operating_Systems/os_ex2/uthreads.h
+

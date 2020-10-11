@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="os_ex2" targetName="uthreads" />
+      <config projectName="os_ex2" targetName="gtest" />
+      <config projectName="os_ex2" targetName="gmock" />
+      <config projectName="os_ex2" targetName="gmock_main" />
+      <config projectName="os_ex2" targetName="os_ex2" />
+      <config projectName="os_ex2" targetName="theTests" />
+      <config projectName="os_ex2" targetName="gtest_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5984e1d4-aded-4829-aba3-15726ee52a7d" name="Default Changelist" comment="queue -&gt; deque, masking and calling destructor">
+      <change beforePath="$PROJECT_DIR$/ex2.tar" beforeDir="false" afterPath="$PROJECT_DIR$/ex2.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uthreads.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/uthreads.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-740705386">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="5" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="4" />
+          <entry key="README" value="3" />
+          <entry key="cbp" value="1" />
+          <entry key="cc" value="1" />
+          <entry key="cpp" value="64" />
+          <entry key="h" value="5" />
+          <entry key="hpp" value="3" />
+          <entry key="os_ex2 (disassembly)" value="1" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="Disassembly" value="1" />
+          <entry key="ObjectiveC" value="73" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Makefile" value="90" />
+          <entry key="README" value="2458" />
+          <entry key="cpp" value="7036" />
+          <entry key="hpp" value="903" />
+          <entry key="mm" value="15" />
+          <entry key="txt" value="337" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="121" />
+          <entry key="ObjectiveC" value="7954" />
+          <entry key="PLAIN_TEXT" value="2764" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages">
+        <counts>
+          <entry key="Google Test" value="71" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uthreads.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
+              <folding>
+                <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uthreads.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ITIMER_VIRTUAL</find>
+      <find>syn</find>
+      <find>signal_set</find>
+      <find>ready_threads</find>
+      <find>sigse</find>
+      <find>wait_next_quantum</find>
+      <find>array</find>
+      <find>q</find>
+      <find>sleep</find>
+      <find>new</find>
+      <find>expect_thread_library_error</find>
+      <find>priorities</find>
+      <find>exit</find>
+      <find>todo</find>
+      <find>you accepted negative priority in function spawn when it shouldn't be allowed</find>
+      <find>you accepted a priority bigger than size of usecs in function change priority</find>
+      <find>disabled</find>
+      <find>sync</find>
+      <find>src</find>
+      <find>ready_threads.si</find>
+      <find>return</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/thread.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/test1.cpp" />
+        <option value="$PROJECT_DIR$/test2.cpp" />
+        <option value="$PROJECT_DIR$/test3.cpp" />
+        <option value="$PROJECT_DIR$/test4.cpp" />
+        <option value="$PROJECT_DIR$/test5.cpp" />
+        <option value="$PROJECT_DIR$/test6.cpp" />
+        <option value="$PROJECT_DIR$/test7.cpp" />
+        <option value="$PROJECT_DIR$/test8.cpp" />
+        <option value="$PROJECT_DIR$/test9.cpp" />
+        <option value="$PROJECT_DIR$/test10.cpp" />
+        <option value="$PROJECT_DIR$/test11.cpp" />
+        <option value="$PROJECT_DIR$/tests/test1.cpp" />
+        <option value="$PROJECT_DIR$/tests/test2.cpp" />
+        <option value="$PROJECT_DIR$/tests/test3.cpp" />
+        <option value="$PROJECT_DIR$/tests/test4.cpp" />
+        <option value="$PROJECT_DIR$/tests/test5.cpp" />
+        <option value="$PROJECT_DIR$/tests/test6.cpp" />
+        <option value="$PROJECT_DIR$/tests/test7.cpp" />
+        <option value="$PROJECT_DIR$/tests/test8.cpp" />
+        <option value="$PROJECT_DIR$/tests/test9.cpp" />
+        <option value="$PROJECT_DIR$/tests/test10.cpp" />
+        <option value="$PROJECT_DIR$/Thread.cpp" />
+        <option value="$PROJECT_DIR$/uthreads.hpp" />
+        <option value="$PROJECT_DIR$/Thread.hpp" />
+        <option value="$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test4.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test3.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test1.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test2.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test5.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test6.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test7.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test8.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test9.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test10.cpp" />
+        <option value="$PROJECT_DIR$/old_tests/test11.cpp" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/uthreads.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/uthreads.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="y" value="32" />
+    <option name="width" value="1272" />
+    <option name="height" value="644" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.Test6.RandomThreadOperations">
+    <configuration name="DO_NOT_RUN_ALL_TESTS_AT_ONCE.READ_THIS" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="DO_NOT_RUN_ALL_TESTS_AT_ONCE" TEST_METHOD="READ_THIS" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.BasicFunctionality" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test1" TEST_METHOD="BasicFunctionality" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.ThreadSchedulingWithTermination" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test2" TEST_METHOD="ThreadSchedulingWithTermination" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3.ThreadExecutionOrder" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test3" TEST_METHOD="ThreadExecutionOrder" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4.StressTestAndThreadCreationOrder" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test4" TEST_METHOD="StressTestAndThreadCreationOrder" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5.TimesAndPriorities" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test5" TEST_METHOD="TimesAndPriorities" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6.RandomThreadOperations" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="theTests" TEST_CLASS="Test6" TEST_METHOD="RandomThreadOperations" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="os_ex2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="os_ex2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="os_ex2" RUN_TARGET_NAME="os_ex2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uthreads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="os_ex2" TARGET_NAME="uthreads" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.os_ex2" />
+      <item itemvalue="Application.uthreads" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Google Test.DO_NOT_RUN_ALL_TESTS_AT_ONCE.READ_THIS" />
+      <item itemvalue="Google Test.Test1.BasicFunctionality" />
+      <item itemvalue="Google Test.Test3.ThreadExecutionOrder" />
+      <item itemvalue="Google Test.Test4.StressTestAndThreadCreationOrder" />
+      <item itemvalue="Google Test.Test6.RandomThreadOperations" />
+      <item itemvalue="Google Test.Test5.TimesAndPriorities" />
+      <item itemvalue="Google Test.Test2.ThreadSchedulingWithTermination" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.Test6.RandomThreadOperations" />
+        <item itemvalue="Google Test.Test5.TimesAndPriorities" />
+        <item itemvalue="Google Test.Test4.StressTestAndThreadCreationOrder" />
+        <item itemvalue="Google Test.Test3.ThreadExecutionOrder" />
+        <item itemvalue="Google Test.Test2.ThreadSchedulingWithTermination" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5984e1d4-aded-4829-aba3-15726ee52a7d" name="Default Changelist" comment="" />
+      <created>1586856581547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586856581547</updated>
+      <workItem from="1586856585725" duration="8300000" />
+      <workItem from="1586872672347" duration="1826000" />
+      <workItem from="1586934323747" duration="4845000" />
+      <workItem from="1587021405242" duration="9502000" />
+      <workItem from="1587049936437" duration="2969000" />
+      <workItem from="1587107273944" duration="7372000" />
+      <workItem from="1587307303605" duration="1174000" />
+      <workItem from="1587455243572" duration="3140000" />
+      <workItem from="1587469669992" duration="50000" />
+      <workItem from="1587472711580" duration="237000" />
+      <workItem from="1587625262597" duration="5053000" />
+      <workItem from="1587632164243" duration="3416000" />
+      <workItem from="1587658390457" duration="320000" />
+      <workItem from="1587891313115" duration="3057000" />
+      <workItem from="1588057673762" duration="4532000" />
+      <workItem from="1588083003582" duration="55000" />
+      <workItem from="1588250855579" duration="341000" />
+      <workItem from="1588316579204" duration="853000" />
+      <workItem from="1588317798351" duration="630000" />
+      <workItem from="1588318904544" duration="220000" />
+      <workItem from="1588339715570" duration="358000" />
+      <workItem from="1588578386219" duration="486000" />
+      <workItem from="1588679924114" duration="133000" />
+      <workItem from="1588681663675" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="correction after first 4 tests">
+      <created>1587110727557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587110727557</updated>
+    </task>
+    <task id="LOCAL-00002" summary="correction after tests 5-10">
+      <created>1587123060754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587123060754</updated>
+    </task>
+    <task id="LOCAL-00003" summary="passing daniel's tests">
+      <created>1587630654998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587630654998</updated>
+    </task>
+    <task id="LOCAL-00004" summary="queue -&gt; deque, masking and calling destructor">
+      <created>1587634264913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587634264914</updated>
+    </task>
+    <task id="LOCAL-00005" summary="invalid arguments test">
+      <created>1587892699354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587892699354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sigaction edge case handling, README corrections">
+      <created>1588061681039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588061681039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test1_BasicFunctionality - 2020.05.01 at 16h 33m 09s.xml">
+      <configuration name="Test1.BasicFunctionality" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test1_BasicFunctionality - 2020.05.01 at 16h 33m 46s.xml">
+      <configuration name="Test1.BasicFunctionality" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test2_ThreadSchedulingWithTermination - 2020.05.01 at 16h 33m 53s.xml">
+      <configuration name="Test2.ThreadSchedulingWithTermination" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.01 at 16h 33m 59s.xml">
+      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test1_BasicFunctionality - 2020.05.04 at 10h 52m 12s.xml">
+      <configuration name="Test1.BasicFunctionality" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test2_ThreadSchedulingWithTermination - 2020.05.04 at 10h 52m 19s.xml">
+      <configuration name="Test2.ThreadSchedulingWithTermination" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test3_ThreadExecutionOrder - 2020.05.04 at 10h 52m 26s.xml">
+      <configuration name="Test3.ThreadExecutionOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.04 at 10h 52m 32s.xml">
+      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test5_TimesAndPriorities - 2020.05.04 at 10h 52m 44s.xml">
+      <configuration name="Test5.TimesAndPriorities" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test6_RandomThreadOperations - 2020.05.04 at 10h 52m 52s.xml">
+      <configuration name="Test6.RandomThreadOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58985000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="8" y="32" width="1272" height="644" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32682925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3442623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39526412" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.498374" weight="0.32604736" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501626" side_tool="true" weight="0.32604736" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32969034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correction after first 4 tests" />
+    <MESSAGE value="correction after tests 5-10" />
+    <MESSAGE value="passing daniel's tests" />
+    <MESSAGE value="queue -&gt; deque, masking and calling destructor" />
+    <MESSAGE value="invalid arguments test" />
+    <MESSAGE value="sigaction edge case handling, README corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="sigaction edge case handling, README corrections" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/old_tests/test11.cpp</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp</url>
+          <line>361</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>quantum_priorities_arr_size</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ready_threads</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/x86_64-linux-gnu/sys/time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test11.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test1.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test2.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test3.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test4.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test5.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test7.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test6.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test8.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test9.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/test10.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/runall.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1921" column="8" selection-start-line="1921" selection-start-column="8" selection-end-line="1921" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/tests/googletest-src/googletest/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="2864" selection-start-line="2864" selection-end-line="2864" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1455">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/sigaction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test7.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test8.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test9.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test10.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_tests/test11.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-start-column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/tests/testers.cbp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uthreads.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uthreads.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
